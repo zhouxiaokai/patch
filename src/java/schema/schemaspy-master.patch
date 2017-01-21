@@ -1,5 +1,5 @@
---- schemaspy-master-go3c/src/main/resources/templates/tables/localTableTemplate.ftl    2017-01-21 13:43:29.643581684 +0800
-+++ schemaspy-master/src/main/resources/templates/tables/localTableTemplate.ftl 2017-01-21 13:40:30.256773416 +0800
+--- ./schemaspy-master-go3c/src/main/resources/templates/tables/localTableTemplate.ftl    2017-01-21 13:43:29.643581684 +0800
++++ ./schemaspy-master/src/main/resources/templates/tables/localTableTemplate.ftl 2017-01-21 13:40:30.256773416 +0800
 @@ -176,8 +176,8 @@
                                 </#if>
                                 :</b></form>

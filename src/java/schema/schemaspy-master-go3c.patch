@@ -1,0 +1,13 @@
+--- schemaspy-master-go3c/src/main/resources/templates/tables/localTableTemplate.ftl	2017-01-21 13:43:29.643581684 +0800
++++ schemaspy-master/src/main/resources/templates/tables/localTableTemplate.ftl	2017-01-21 13:40:30.256773416 +0800
+@@ -176,8 +176,8 @@
+ 				</#if>
+ 				:</b></form>
+ 				
+-				${oneDegreeDiagram}
+-				<a name='diagram'><img id='oneDegreeImg' src='../diagrams/${oneDegreeDiagramName?url}' usemap='#oneDegreeRelationshipsDiagram' class='diagram' border='0' alt='' align='left'></a
++				${oneDegreeDiagram!}
++				<a name='diagram'><img id='oneDegreeImg' src='../diagrams/${oneDegreeDiagramName!?url}' usemap='#oneDegreeRelationshipsDiagram' class='diagram' border='0' alt='' align='left'></a
+ 				<#if impliedDiagram?? && impliedDiagram?has_content>
+ 					${impliedDiagram}
+ 					<a name='diagram'><img id='impliedTwoDegreesImg' src='../diagrams/${impliedDiagramName?url}' usemap='#impliedTwoDegreesRelationshipsDiagram' class='diagram' border='0' alt='' align='left'></a>
